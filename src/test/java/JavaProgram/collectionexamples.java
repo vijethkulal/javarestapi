@@ -15,6 +15,8 @@ public class collectionexamples {
 
         for (String i : ls) {
             System.out.println(i);
+
+           // System.out.println(i);
         }
 
     }
