@@ -1,25 +1,23 @@
-package JavaProgram;
+package javaprogram;
 
 public class SwaptwoNumbers {
 
 
-    public static void meth1(int k, int l)
-
-    {
-        l=k+l-(k=l);
-        System.out.println("k value is: "+k +" "+"l value is: "+l);
+    public static void meth1(int k, int l) {
+        l = k + l - (k = l);
+        System.out.println("k value is: " + k + " " + "l value is: " + l);
     }
-    public static void main(String args[]) {
 
-        SwaptwoNumbers.meth1(50,60);
+    public static void main(String[] args) {
+
+        SwaptwoNumbers.meth1(50, 60);
 
 
-
-        int a=10,b=20;
+        int a = 10, b = 20;
         int temp;
 
 //logic 1
-        temp=a;
+        temp = a;
         a=b;
         b=temp;
         System.out.println("a value is: "+a +"b value is: "+b);

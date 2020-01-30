@@ -1,17 +1,17 @@
-package JavaProgram;
+package javaprogram;
 
 public class replace {
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
 
-        String st="I am Vijeth Kulal the Genius and Jack of All";
+        String st = "I am Vijeth Kulal the Genius and Jack of All";
 
-        int count=st.length();
-        int stlentha = st.replaceAll("a","b").length();
+        int count = st.length();
+        int stlentha = st.replaceAll("a", "b").length();
         System.out.println(st);
-        String ad=st.replaceAll("i","e");
+        String ad = st.replaceAll("i", "e");
         System.out.println(ad);
-        String ads=st.replaceAll("e","i");
+        String ads = st.replaceAll("e", "i");
         System.out.println(ads);
 
     }

@@ -1,18 +1,18 @@
-package JavaProgram;
+package javaprogram;
 
-import java.util.*;
+import java.util.Set;
+import java.util.TreeSet;
 
 public class sortusingarray {
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
 
-int arr[]={98,80,67,56};
+        int[] arr = {98, 80, 67, 56};
 //        Set<int> sl = new TreeSet<>(arr);
 
 
         Set<Integer> sor = new TreeSet<>();
-        for(int a:arr)
-        {
+        for (int a : arr) {
             sor.add(a);
         }
 

@@ -1,4 +1,4 @@
-package JavaProgram;
+package javaprogram;
 
 public interface RestAPI {
 }

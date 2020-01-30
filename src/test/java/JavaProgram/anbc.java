@@ -1,7 +1,7 @@
-package JavaProgram;
+package javaprogram;
 
 public class anbc {
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
     }
 }

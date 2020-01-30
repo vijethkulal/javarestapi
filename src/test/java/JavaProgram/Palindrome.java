@@ -1,10 +1,8 @@
-package JavaProgram;
-
-import com.google.gson.internal.bind.util.ISO8601Utils;
+package javaprogram;
 
 public class Palindrome {
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
 
         int num = 106601;
         StringBuffer sb = new StringBuffer(String.valueOf(num));

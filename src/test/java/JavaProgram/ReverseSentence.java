@@ -1,8 +1,4 @@
-package JavaProgram;
-
-import com.google.gson.internal.bind.util.ISO8601Utils;
-
-import java.util.Scanner;
+package javaprogram;
 
 import static jdk.nashorn.internal.objects.NativeString.trim;
 
@@ -22,7 +18,7 @@ public class ReverseSentence {
         System.out.println(revr);
 
 
-        String splitwords[] = input.split(" ");
+        String[] splitwords = input.split(" ");
         String reverseword = "";
 
         for (int i = 0; i < splitwords.length; i++) {

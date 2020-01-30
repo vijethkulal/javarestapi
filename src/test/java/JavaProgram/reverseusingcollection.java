@@ -1,20 +1,22 @@
-package JavaProgram;
+package javaprogram;
 
-import java.util.*;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
 
 public class reverseusingcollection {
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
 
 
-                String input = "Dxc Technologies Limited";
-                String[] trial1 = input.split(" ");
+        String input = "Dxc Technologies Limited";
+        String[] trial1 = input.split(" ");
 
-                List trial2 = Arrays.asList(trial1);
+        List trial2 = Arrays.asList(trial1);
 
-                Collections.reverse(trial2);
+        Collections.reverse(trial2);
 
-                trial2.stream().forEach(i -> {
+        trial2.stream().forEach(i -> {
                     System.out.print(i +" ");
                 });
 

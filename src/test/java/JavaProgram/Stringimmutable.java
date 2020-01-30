@@ -1,11 +1,10 @@
-package JavaProgram;
+package javaprogram;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 
 public class Stringimmutable {
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
 
         String s = "Sachin";
         s = s.concat(" Tendulkar");//concat() method appends the string at the end

@@ -1,7 +1,7 @@
-package JavaProgram;
+package javaprogram;
 
 public class reverseothers {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
 
 
         String s1 = "I m learning Java";
@@ -10,8 +10,8 @@ public class reverseothers {
         String f2w = s2[1];
         String f3w = s2[2];
         String f4w = s2[3];*/
-String reverses="";
-        int length1=s2.length;
+        String reverses = "";
+        int length1 = s2.length;
         for(int i=length1-1;i>=0;i--)
 
         {

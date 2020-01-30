@@ -1,15 +1,16 @@
-package JavaProgram;
+package javaprogram;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
 public class secondlargest {
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
 
-        int[] arr={23,34,45,54,11,10};
+        int[] arr = {23, 34, 45, 54, 11, 10};
         List<Integer> ls = new ArrayList<Integer>(arr.length);
-        for (int i:arr)
-        {
+        for (int i : arr) {
             ls.add(i);
         }
 
@@ -20,7 +21,7 @@ public class secondlargest {
         ls.add(987);
         ls.add(980);
         ls.add(989);
-        Integer a[]=new Integer [ls.size()];
+        Integer[] a = new Integer[ls.size()];
        
 
 

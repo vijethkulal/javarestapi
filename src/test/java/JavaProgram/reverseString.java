@@ -1,8 +1,8 @@
-package JavaProgram;
+package javaprogram;
 
 public class reverseString {
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
 
         String str = "ABCD";
         String rev = "";
@@ -13,7 +13,7 @@ public class reverseString {
         System.out.println(rev);
 
         String str1 = "DXC Technolgies";
-        char a[] = str1.toCharArray();
+        char[] a = str1.toCharArray();
         int len1 = a.length;
         String revs = "";
         for (int j = len1 - 1; j >= 0; j--) {

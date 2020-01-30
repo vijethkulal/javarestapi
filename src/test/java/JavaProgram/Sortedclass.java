@@ -1,11 +1,10 @@
-package JavaProgram;
+package javaprogram;
 
-import java.sql.SQLOutput;
 import java.util.*;
 
 public class Sortedclass {
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
 
         Set<String> sl = new TreeSet<>();
 
@@ -43,7 +42,7 @@ public class Sortedclass {
         S22.add(98);
         S22.add(95);
         System.out.println(S22.size());
-        Integer a[]=new Integer [S22.size()];
+        Integer[] a = new Integer[S22.size()];
         a=S22.toArray(a);
         System.out.println(a[0]);
         int sum=0;

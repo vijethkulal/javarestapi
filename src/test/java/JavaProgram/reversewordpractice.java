@@ -1,10 +1,8 @@
-package JavaProgram;
-
-import javax.xml.bind.SchemaOutputResolver;
+package javaprogram;
 
 public class reversewordpractice {
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
 
         String str = "You Love me";
 
@@ -16,7 +14,7 @@ public class reversewordpractice {
          */
 
         //1.Reverse the existing string
-        char c[] = str.toCharArray();
+        char[] c = str.toCharArray();
         String reverse1 = "";
         for (int i = c.length - 1; i >= 0; i--) {
 
