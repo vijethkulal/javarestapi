@@ -92,15 +92,20 @@ public class Sortedclass {
         S5.add(5);
         //
 
-        System.out.println("Linked Hash Set :"+S5);
-      //  Queue<Integer> S5 = new <Integer>();
+        System.out.println("Linked Hash Set :" + S5);
+        //  Queue<Integer> S5 = new <Integer>();
 
 
-        HashMap<String,Double> hm=new HashMap<String, Double>();
-        hm.putIfAbsent("America",10.0);
-        hm.putIfAbsent("China",9.0);
-        hm.putIfAbsent("India",5.0);
-        hm.putIfAbsent("Brazil",9.0);
+        HashMap<String, Double> hm = new HashMap<String, Double>();
+        hm.put("America", 10.0);
+        hm.putIfAbsent("China", 9.0);
+        hm.putIfAbsent("India", 5.0);
+        hm.putIfAbsent("Brazil", 9.0);
+        hm.put("America", 19.0);
+        hm.put("America", 199.0);
+        //System.out.println(hm.replace("America",19.0));
+        System.out.println(hm);
+        System.out.println(hm.get("America"));
 
 
     }
