@@ -1,4 +1,4 @@
-package javaprogram;
+package Javaprogram;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -9,7 +9,7 @@ public class a3b2c3usingmap {
         char[] inputCharArray = input.toCharArray();
         Map<Character, Integer> map = new HashMap<>();
         for (char c : inputCharArray) {
-            if (map.containsKey(Character.valueOf(c))) {
+            if (map.containsKey(c)) {
                 map.put(c, map.get(c) + 1);
             } else {
                 map.put(c, 1);
